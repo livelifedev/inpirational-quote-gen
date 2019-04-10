@@ -1,0 +1,100 @@
+body{
+    font-family: "Trajan Pro", "Traditional Arabic", "Times New Roman", serif;
+    color: forestgreen;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 2%;
+    text-align: center;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+#logo {
+    height: 200px;
+    width: 200px;
+    border: solid thin;
+    border-radius: 100%;
+}
+
+h3 {
+    margin: 40px 0 0;
+}
+
+#quote {
+    font-size: 1em;
+}
+
+#author {
+    font-size: .8em;
+    font-style: italic;
+}
+
+#placeholder {
+    border: solid thin;
+    border-radius: 4px;
+    margin: 4px 3% 20px;
+    padding: 0 4px;
+    background-color: white;
+}
+
+#dailyquote {
+    font-size: 0.8em;
+    height: 34px;
+    width: 136px;
+    line-height: 1.6;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-style: none;
+    background-color: forestgreen;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.social-img {
+    width: 20px;
+    margin: 2px;
+}
+
+#bottom-bar {
+    font-size: 0.75em;
+    margin: 60px 12% 0;
+    padding-top: 15px;
+    border-top: solid thin #CCC;
+}
+
+
+/****************************************
+Media Queries
+****************************************/
+
+@media only screen and (min-width: 660px) {
+    
+    #wrapper {
+        margin-top: 30px;
+    }
+    
+    #logo {
+        height: 300px;
+        width: 300px;
+        margin-top: 25px;
+    }
+    
+    h3 {
+        margin-bottom: 10px;
+    }
+    
+    #bottom-bar {
+        margin-top: 86px;
+    }
+}
+

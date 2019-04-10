@@ -1,0 +1,1 @@
+Another mini-project I did while I was learning how to code. It's a quote generator that generates an inspirational quote with an image, built using HTML, CSS, JavaScript.
